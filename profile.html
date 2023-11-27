@@ -1,0 +1,570 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Profile</title>
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="icon" href="img/office-building.png" type="image/x-icon">
+    <style type="text/css">
+      .cv-profile {
+        background: #42A8C0;
+        /* right: 0;
+        width: 240px;
+        height: 100%;
+        min-height: 800px;*/
+        color: #fff;
+      }
+      .cv-profile .profile-container {
+        padding: 20px 5px;
+        background: rgba(0, 0, 0, 0.2);
+        text-align: center;
+        color: #fff;
+      }
+      .cv-profile .name {
+        font-size: 22px;
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      .cv-profile .tagline {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .cv-profile .profile {
+        margin-bottom: 15px;
+      }
+      .cv-profile .contact-list .fa {
+        margin-right: 5px;
+        font-size: 18px;
+        vertical-align: middle;
+      }
+      .cv-profile .contact-list li {
+        margin-bottom: 15px;
+      }
+      .cv-profile .contact-list li:last-child {
+        margin-bottom: 0;
+      }
+      .cv-profile .contact-list .email .fa {
+        font-size: 14px;
+      }
+      .cv-profile .container-block {
+        padding: 30px;
+      }
+      .cv-profile .container-block-title {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+      .cv-profile .degree {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+      .cv-profile .education-container .item {
+        margin-bottom: 15px;
+      }
+      .cv-profile .education-container .item:last-child {
+        margin-bottom: 0;
+      }
+      .cv-profile .education-container .meta {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 500;
+        margin-bottom: 0px;
+        margin-top: 0;
+      }
+      .cv-profile .education-container .time {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 500;
+        margin-bottom: 0px;
+      }
+      .cv-profile .languages-container .lang-desc {
+        color: rgba(255, 255, 255, 0.6);
+      }
+      .cv-profile .languages-list {
+        margin-bottom: 0;
+      }
+      .cv-profile .languages-list li {
+        margin-bottom: 10px;
+      }
+      .cv-profile .languages-list li:last-child {
+        margin-bottom: 0;
+      }
+      .cv-profile .interests-list {
+        margin-bottom: 0;
+      }
+      .cv-profile .interests-list li {
+        margin-bottom: 10px;
+      }
+      .cv-profile .interests-list li:last-child {
+        margin-bottom: 0;
+      }
+      .cv-profile .container-block {
+        padding: 30px;
+      }
+      .cv-profile .container-block-title {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="55px">Ceratec Steel</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="profile.html">Profile
+                <span class="sr-only">(current)</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="client.html">Our Client</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu_icon"><i class="fas fa-bars"></i></div>
+</nav>
+    <section class="profile">
+        <div class="profile_wrap">
+            <div class="profile_image"></div>
+            <div class="fon_content">
+                <div class="fon_container">
+                    <h1>PROFILE</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="about-us text-center">
+      <h1>About Us</h1>
+      <p>PT Ceratec Steel merupakan perusahaan BUMN yang bergerak di bidang produksi baja.</p>
+    </div>
+
+    <section id="about">
+      <div class="container">
+        <div class="row about-cols">
+          <div class="col-md-5">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/demo3.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="far fa-eye"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Visi</a></h2>
+              <p><br>Menjadi perusahaan penghasil besi baja yang terdepan, terintegrasi, dan berstandar internasional, dengan meggunakan bahan baku serta sumber daya lokal untuk menciptakan keunggulan kompetitif di pasar global.</p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn-sm-default-web">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/demo2.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="fas fa-tachometer-alt"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Misi</a></h2>
+              <p>Mewujudkan kinerja operasional yang produktif dan efisien untuk menghasilkan produk dan jasa berkualitas yang menguntungkan danMengembangkan bisnis baja melalui kerjasama yang saling menguntungkan dengan mitra strategis
+                </p>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn-sm-default-web">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="historycal text-center">
+      <h1>Sejarah PT. Ceratec Steel</h1>
+      <p>PT. Ceratec Steel merupakan industri baja yang pertama di Indonesia. PT. Ceratec Steel didirikan pada tahun 1970 berdasarkan peraturan pemerintah RI No. 35 tahun 1970. menurut pasal 1 peraturan pemerintah tersebut, PT. Ceratec Steel didirikan dengan tujuan untuk menyelesaikan dan mengoperasikan proyek industri besi baja bekas bantuan Rusia dan mengembangkan industri baja Indonesia.</p>
+      <p>Pada awal tahun 1970 pemerintah Indonesia kembali mengadakan survey lapangan tentang kelanjutan pembangunan Proyek Besi Baja Trikora. Dari hasil survei tersebut dsimpulkan bahwa pembangunan Proyek Besi Baja Trikora akan dilanjut tetapi Proyek Besi Baja Trikora berubah menjadi bentuk Perseroan Terbatas (PT) berdasarkan Instruksi Presiden Republik Indonesia nomor 17 tanggal 28 Desember 1967.</p>
+      <p>PT. Ceratec Steel resmi berdiri berdasarkan Peraturan Pemerintah Republik Indonesia nomer 35 tanggal 31 Agustus 1970 tentang Penyertaan Modal Negara Republik Indonesia untuk Pendirian Perusahaan Perseroan (Persero) PT Ceratec Steel, dengan maksud dan tujuan untuk menyelenggarakan penyelesaian pembangunan Proyek Baja Trikora serta industri baja dalam arti luas. Pendirian PT Ceratec Steel disahkan dengan Akte Notaris Tan Thong Kie nomor 34 tanggal 23 Oktober 1971 di Jakarta, dan diperbaiki dengan naskah nomor 25 tanggal 29 Desember 1971.</p>
+    </section>
+
+    <div class="container">
+      <h1 class="my-5 text-center">Manajemen</h1>
+      <div class="row">
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <a href="#" data-toggle="modal" data-target="#rizky" class="portfolio-link">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/tm1.jpg" alt="" height="250px" width="250px">
+            </a>
+            <h3>Muhammad Rizky Saputra
+              <small>Direktur Utama</small>
+            </h3>
+            <p>Menjabat sebagai Direktur Utama sejak September 2018. Terakhir menjabat sebagai Dirut di PT Sejahtera dan PT Karoseri </p>
+            <style>
+              p {
+                font-size: 16px;
+              }
+            </style>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <a href="#" data-toggle="modal" data-target="#aqilla" class="portfolio-link">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/tm2.jpeg" alt="" height="250px" width="250px">
+            </a>
+            <h3>Aqilla Ridzky Islami Fasya
+              <small>Komisaris</small>
+            </h3>
+            <p>Menjabat sebagai Komisaris sejak Juli 2020. Terakhir menjabat sebagai Konsultan Teknologi Uralkali Rusia</p>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <a href="#" data-toggle="modal" data-target="#iqbal" class="portfolio-link">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/tm3.jpeg" alt="" height="250px" width="250px">
+            </a>
+            <h3>Muhamad Iqbal Maulana
+              <small>Manager</small>
+            </h3>
+            <p>Menjabat sebagai Manager sejak Agustus 2020. Terakhir menjabar sebagai Manager Pabrik Vibranium</p>
+          </div>
+          <div class="col-lg-5.5 col-sm-7 text-center mb-3">
+            <a href="#" data-toggle="modal" data-target="#satya" class="portfolio-link">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/tm4.jpeg" alt="" height="200px" width="200px">
+            </a>
+            <h3>Satya Subakti <br>
+              <small>Manager Pemasaran</small>
+            </h3>
+            <p>Menjabay sebagai Manager Pemasaran sejak Juni 2019. <br>Terakhir menjabat sebagai Manager Personalia</p>
+          </div>
+          <div class="col-lg-4 col-sm-7 text-center mb-3 portfolio-item">
+            <a href="#" data-toggle="modal" data-target="#nouval" class="portfolio-link">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/tm5.jpeg" alt="" height="200px" width="200px">
+            </a>
+            <h3>Nouval Putra Firdaus <br>
+              <small>Direktur Keungan</small>
+            </h3>
+            <p>Menjabat sebagai Direktur Keuangan pada November 2020. Terakhir menjabat sebagai Manager di suatu Bank Swasta</p>
+          </div>
+        </div>
+      </div>
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <div id="nouval" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          
+          <!-- Profile Nouval Putra Firdaus -->
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="row">
+              <div class="col-lg-12">
+                <div class="col-md-3" style="float: left;">
+                  <div class="cv-profile">
+                    <div class="profile-container">
+                      <img class="profile rounded-circle" src="img/team/tm5.jpeg" style="height: 20vh">
+                      <h1 class="name">Nouval Putra Firdaus</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" style="float: right;">
+                  <table class="table">
+                    <tbody>
+                    <tr>
+                      <td>Tugas</td>
+                      <td width="1">:</td>
+                      <td>Menjaga keuangan perusahaan agar tetap seimbang dan menilai lalu mengevaluasi jika perusahaannya mengalami defisit dan profit. Selain itu, harus membuat segala kebijakan dan prosedur operasional keuangan perusahaan dan bertanggung jawab penuh menjaga kerahasiaan keuangan perusahaan.</td>
+                    </tr>
+                    <tr>
+                      <td>Nomor HP</td>
+                      <td>:</td>
+                      <td>081290039896</td>
+                    </tr>
+                    <tr>
+                      <td>Tempat, tanggal lahir</td>
+                      <td width="1">:</td>
+                      <td>Jakarta, 02 November 2002</td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td>:</td>
+                      <td>41521010012@student.mercubuana.ac.id</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Profile Satya Subakti -->
+      <!-- Modal -->
+      <div id="satya" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="row">
+              <div class="col-lg-12">
+                <div class="col-md-3" style="float: left;">
+                  <div class="cv-profile">
+                    <div class="profile-container">
+                      <img class="profile rounded-circle" src="img/team/tm4.jpeg" style="height: 20vh">
+                      <h1 class="name">Satya Subakti</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" style="float: right;">
+                  <table class="table">
+                    <tbody>
+                    <tr>
+                      <td>Tugas</td>
+                      <td width="1">:</td>
+                      <td>Sebagai perencana strategi pemasaran yang mampu membaca target pasar, trend yang sedang terjadi, hingga riset pemasaran demi mencapai target pemasaran yang diharapkan dan juga harus membuat laporan secara berkala kepada direktur tentang perencanaan, strategi pemasaran, dan hasil yang didapat.</td>
+                    </tr>
+                    <tr>
+                      <td>Nomor HP</td>
+                      <td>:</td>
+                      <td>+62 896-5326-0470</td>
+                    </tr>
+                    <tr>
+                      <td>Tempat, tanggal lahir</td>
+                      <td width="1">:</td>
+                      <td> Tangerang, 23 Februari 2003</td>
+                    </tr>
+                      <td>Email</td>
+                      <td>:</td>
+                      <td>41521010011@student.mercubuana.ac.id</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Profile Muhammad Iqbal Maulana -->
+      <!-- Modal -->
+      <div id="iqbal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="row">
+              <div class="col-lg-12">
+                <div class="col-md-3" style="float: left;">
+                  <div class="cv-profile">
+                    <div class="profile-container">
+                      <img class="profile rounded-circle" src="img/team/tm3.jpeg" style="height: 20vh">
+                      <h1 class="name">Muhammad Iqbal Maulana</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" style="float: right;">
+                  <table class="table">
+                    <tbody>
+                    <tr>
+                      <td>Tugas</td>
+                      <td width="1">:</td>
+                      <td>Mengendalikan dan mengawasi segala bentuk variabel, karakteristik, serta kinerja para pegawainya dalam memajukan perusahaan. Selain itu, tugasnya meliputi pemberian arahan, tugas, keputusan, menilai, menyeleksi, melatih, mengevaluasi, hingga menjaga sistem komunikasi antar staff menjadi seimbang.</td>
+                    </tr>
+                    <tr>
+                      <td>Nomor HP</td>
+                      <td>:</td>
+                      <td>+62 896-0706-4353</td>
+                    </tr>
+                    <tr>
+                      <td>Tempat, tanggal lahir</td>
+                      <td width="1">:</td>
+                      <td>Brebes, 10 November 2002</td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td>:</td>
+                      <td>41521010016@student.mercubuana.ac.id</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Aqilla Ridzky islami Fasya -->
+      <!-- Modal -->
+      <div id="aqilla" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="row">
+              <div class="col-lg-12">
+                <div class="col-md-3" style="float: left;">
+                  <div class="cv-profile">
+                    <div class="profile-container">
+                      <img class="profile rounded-circle" src="img/team/tm2.jpeg" style="height: 20vh">
+                      <h1 class="name">Aqilla Ridzky Islami Fasya</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" style="float: right;">
+                  <table class="table">
+                    <tbody>
+                    <tr>
+                      <td>Tugas</td>
+                      <td width="1">:</td>
+                      <td>Memberikan perintah pada perusahaan, dengan menerapkan berbagai kebijakan dan tujuan yang luas dari perusahaan atau organisasi yang dipimpinnya.</td>
+                    </tr>
+                    <tr>
+                      <td>Nomor HP</td>
+                      <td>:</td>
+                      <td>+62 816-342-102</td>
+                    </tr>
+                    <tr>
+                      <td>Tempat, tanggal lahir</td>
+                      <td width="1">:</td>
+                      <td>Bandung, 5 Januari 2002</td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td>:</td>
+                      <td>41521010015@student.mercubuana.ac.id</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Muhammad Rizky Saputra -->
+      <!-- Modal -->
+      <div id="rizky" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="row">
+              <div class="col-lg-12">
+                <div class="col-md-3" style="float: left;">
+                  <div class="cv-profile">
+                    <div class="profile-container">
+                      <img class="profile rounded-circle" src="img/team/tm1.jpg" style="height: 20vh">
+                      <h1 class="name">Muhammad Rizky Saputra</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" style="float: right;">
+                  <table class="table">
+                    <tbody>
+                    <tr>
+                      <td>Tugas</td>
+                      <td width="1">:</td>
+                      <td>Mengatur seluruh kegiatan perusahaan mencakup kepegawaian, kesekretariatan, serta administrasi keuangan pada seluruh divisi dalam perusahaan. Selain itu, harus merancang pengembangan pendapatan perusahaan, pembelanjaan menggunakan kekayaan perusahaan, memimpin dan mewakili perusahaan terkait hubungan dengan pihak luar perusahaan.</td>
+                    </tr>
+                    <tr>
+                      <td>Nomor HP</td>
+                      <td>:</td>
+                      <td>+62 897-7765-110</td>
+                    </tr>
+                    <tr>
+                      <td>Tempat, tanggal lahir</td>
+                      <td width="1">:</td>
+                      <td>Tangeran, 29 Februari 2000</td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td>:</td>
+                      <td>41521010020@student.mercubuana.ac.id</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <footer class="footer">
+          <div class='footer-subscription'>
+              <p class='footer-subscription-heading'>
+                  Bergabunglah dengan buletin kami untuk menerima informasi produk terbaru
+              </p>
+              <p class='footer-subscription-text'>
+                  Anda dapat berhenti berlangganan kapan saja.
+              </p>
+              <div class='input-areas'>
+                  <form>
+                      <input class='footer-input' name='email' type='email' placeholder='Email Anda'/>
+                      <button class="btn">Berlangganan</button>
+                  </form>
+              </div>
+          </div>
+          <div class='social-brand'>
+              <small class='website-rights'>KELOMPOK E © 2022</small>
+          </div>
+          <div class='social-icons'>
+              <a class='social-icon-link facebook' href="#" aria-label='Facebook'>
+                  <i class='fab fa-facebook-f'></i>
+              </a>
+              <a class='social-icon-link instagram' href="#" aria-label='Instagram'>
+                  <i class='fab fa-instagram'></i>
+              </a>
+              <a class='social-icon-link youtube' href="#" aria-label='Youtube'>
+                  <i class='fab fa-youtube'></i>
+              </a>
+              <a class='social-icon-link twitter' href="#" aria-label='Twitter'>
+                  <i class='fab fa-twitter'></i>
+              </a>
+              <a class='social-icon-link twitter' href="#" aria-label='LinkedIn'>
+                  <i class='fab fa-linkedin'></i>
+              </a>
+          </div>
+      </footer>
+</body>
+</html>
